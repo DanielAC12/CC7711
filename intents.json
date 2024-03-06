@@ -1,0 +1,51 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  {
+    "tag": "oq_pipe",
+    "patterns":["O que o o Programa Pipe?", "O que significa o Pipe?"],
+    "responses":["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. "]
+  },
+  {
+    "tag": "obg_pipe",
+    "patterns":["Quais são os objetivos do Progrma Pipe?"],
+    "responses":["Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado de trabalho empresarial criando uma cultura permanente de inovação."]
+  },
+  {
+    "tag": "etapas_pipe",
+    "patterns":["Quantas etapas tem o programa?", "São quantas etapas o programa?"],
+    "responses":["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta; b) Fase 2: destina-se à execução da pesquisa propriamente dita; c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada; d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  {
+    "tag": "fase_jump",
+    "patterns":["Todas as fases são obrigatórias?", "Tem como pular etapas?"],
+    "responses":["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de “Justificativa para a Fase 2 Direta."]
+  },
+  {
+    "tag": "submit_pipe",
+    "patterns":["Como submeter no pipe?", "Como enviar o arquivo no pipe?"],
+    "responses":["As propostas para o PIPE Fase 1, Fase 2 e PIPE Invest são recebidas em fluxo contínuo durante todo o ano."]
+  },
+  {
+    "tag": "area_pipe",
+    "patterns":["O Pipe atende só uma área?"],
+    "responses":["Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento"]
+  },
+  {
+    "tag": "horas_pipe",
+    "patterns":["Tem que se dedicar muito para o pipe?", "Quanto tempo é o minimo para o pipe?"],
+    "responses":["Caso o pesquisador principal seja pago pela empresa e não receba bolsa da FAPESP, é exigida a dedicação mínima de 24 horas semanais ao projeto na empresa. Em casos excepcionais, em que a empresa demonstra não poder arcar com o salário do Pesquisador Responsável, a FAPESP pode analisar solicitação de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar Bolsa PE, é necessária a dedicação mínima de 40 horas semanais ao projeto."]
+  },
+]
+  
+}
